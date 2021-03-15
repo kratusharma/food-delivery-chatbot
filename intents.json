@@ -1,0 +1,75 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","byebye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is FoodieChat", "what is your age", "how old are you", "age?"],
+         "responses": ["I was launched in 2020,but i am wise beyond my years", "I'm still pretty new"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","who are you"],
+         "responses": ["You can call me FoodieChat.", "I'm FoodieChat!", "I'm FoodieChat, one stop solution to all your problems."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "working days"],
+         "responses": ["We are open 8am-11pm Monday-sunday!","We are open (8am-11pm)*7" ],
+         "context_set": ""
+        },
+        {"tag": "about",
+         "patterns": ["say something about your Restro", "what is Restro?", "Tell me about your Restro"],
+         "responses": ["Restro is situated near Malviya Nagar Delhi is one stop solution to all your hunger problems."], 
+         "context_set": ""
+        },
+        {"tag": "menu",
+         "patterns": ["varities of cuisine?", "restro has how many different varities of cuisine", "what are the different types of the cuisine"],
+         "responses": ["Restro has all major varities of cuisine. American, Indian, Thai, Chinese, Japanese, French, Greek, Mexican, Taiwan, Italian."],
+         "context_set": ""
+        },
+        {"tag": "chef",
+         "patterns": ["chef details of your restro","How many chefs in your restro","chefs in your restro"],
+         "responses": ["Restro has 2 head chefs and 20 subordinate chefs under them"],
+         "context_set": ""
+        },
+        {"tag":  "reviews",
+          "patterns": ["what are the reviews of Restro?","why choose your Restro"],
+          "responses": ["Our Restro is 5-star restro and we have average 4.7 ratings out of 5, Youn can also check our google reviews " ],
+          "context_set": ""
+        },
+        {"tag": "Chinese",
+         "patterns": ["what are the popular chinese dishes of your restro", "chinese dishes", "chinese food", "real chinese", "chowmein"],
+         "responses": ["We provide a lot of chinese dishes like - Hotpot, Sichuan Pork, Braised Pork Balls in Gravy, Dumplings, Chow Mein, Peking Roasted Duck, Steamed Vermicelli Rolls and many more"],
+         "context_set": ""
+        },
+        {"tag": "italian",
+         "patterns": ["what are the popular italian dishes of your restro", "italian dishes", "italian food", "italian chinese", "pasta"],
+         "responses": ["We provide a lot of italian dishes like - Caprese Salad with Pesto Sauce, Panzenella, Bruschetta, Focaccia Bread, Pasta Carbonara, Margherita Pizza, Mushroom Risotto, Pasta Con Pomodoro E Basilico and many more "],
+         "context_set": ""
+        },
+        {"tag": "Indian",
+         "patterns": ["what are the popular Indian dishes of your restro", "Indian dishes", "Indian food", "Dosa", "Chole Bhature"],
+         "responses": ["We provide a lot of Indian dishes like - Hyderabadi Biryani, Masala Dosa, Pav Bhaji, Dhokla, Chole Bhature, Aloo Paratha, Paneer Tikka, Vada Pav, Dhokla and many more"],
+         "context_set": ""
+        },
+        {"tag": "chinese",
+         "patterns": ["what are the popular Mexican dishes of your restro", "Mexican dishes", "Mexican food", "real Mexican", "Guacamole"],
+         "responses": ["We provide a lot of Mexican dishes like - Burritos with Minced Meat Filling, Chicken Quesadillas, Guacamole, Guilt-Free Chilli, Chilli Con Carne and many more"],
+         "context_set": ""
+        },
+        
+        {"tag": "delivery charges",
+         "patterns": ["free delivery", "minimum order required for free delivery", "minimun order"],
+         "responses": ["Minimum order of 800rs for free delivery and you are eligible for one free delivery over new signup"],
+         "context_set": ""
+        }
+
+   ]
+}
